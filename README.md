@@ -19,3 +19,9 @@ Part of the [ithingtalk](https://github.com/ithingtalk) open-source set.
 ## License
 
 MIT — see [LICENSE](LICENSE). Third-party components you add (VLC, OpenSSL, AWS SDK, etc.) keep their own licenses; keep NOTICE/attribution when redistributing binaries.
+
+## Contact
+
+- z345766218@gmail.com
+- 345766218@qq.com
+
