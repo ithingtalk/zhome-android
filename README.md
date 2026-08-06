@@ -6,7 +6,7 @@ Part of the [ithingtalk](https://github.com/ithingtalk) open-source set.
 
 ## Important limitations
 
-- **Native libraries are not included** (`clibs` / `libs` / `thirdparty`, VLC frameworks). See [DEPENDENCIES.md](DEPENDENCIES.md).
+- **Native libraries are not included** (`clibs` / `libs` / `thirdparty`, VLC frameworks). Download prebuilts from [https://www.ithingtalk.com/zhome-libs.zip](https://www.ithingtalk.com/zhome-libs.zip) and see [DEPENDENCIES.md](DEPENDENCIES.md).
 - **Production AWS IDs are not included.** Copy `awsconfig.json.example` to the path expected by the app and fill in your own Cognito / API Gateway / IoT values.
 - This tree is meant for reading and rebuilding with your own credentials and prebuilts — it is **not** a turnkey binary release.
 
