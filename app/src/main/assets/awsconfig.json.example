@@ -1,0 +1,8 @@
+{
+  "AwsApiGatewayInvokeUrl": "https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/prod",
+  "UserPoolId": "YOUR_REGION_XXXXXXXXX",
+  "UserPoolClientId": "YOUR_USER_POOL_CLIENT_ID",
+  "IdentityPoolId": "YOUR_REGION:00000000-0000-0000-0000-000000000000",
+  "AwsIotHost": "YOUR_IOT_ENDPOINT.iot.YOUR_REGION.amazonaws.com",
+  "AwsRegion": "YOUR_REGION"
+}

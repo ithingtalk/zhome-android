@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 闪屏启动主题 -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- 闪屏页背景颜色 -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <!-- 闪屏页中心图标：此处设置透明以达到完全纯黑/纯白纯色图过渡，若需要 Logo 可改为 @mipmap/ic_launcher -->
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <!-- 闪屏页退出后恢复的 Activity 常规主题 -->
+        <item name="postSplashScreenTheme">@style/Theme.Zhome</item>
+    </style>
+
+    <style name="Theme.Zhome" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

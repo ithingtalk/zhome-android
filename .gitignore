@@ -1,0 +1,46 @@
+# Local / secrets
+local.properties
+Config.local.xcconfig
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+AuthKey*.p8
+.env
+.env.*
+credentials.json
+awsconfig.json
+**/awsconfig.json
+!**/awsconfig.json.example
+cfg/config.json
+
+# Native prebuilts (not shipped in this OSS tree)
+clibs/
+libs/
+thirdparty/
+MobileVLCKit.xcframework/
+VLCKit.xcframework/
+MobileVLCKit.framework/
+VLCKit.framework/
+keystore/
+
+# Build / IDE
+.gradle/
+build/
+Build/
+bin/
+**/bin/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+app/release/
+*.apk
+*.aab
+.DS_Store
+node_modules/
+zALL/

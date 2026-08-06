@@ -1,0 +1,10 @@
+
+2026-6-1:
+change logo: replace file androidApp/app/src/main/res/drawable-nodpi/ic_launcher_foreground_image.png
+
+１增加权限申请操作，ＡＰＰ启动时，检查所有需要的权限，如果未允许，则动态申请
+
+２搜不到本地设备，设备列表为空
+３远程连接模块没有打印信息，是否未正确加载？
+
+连接设备的流程是登陆、获取设备信息、下载文件数据库、打开主页面，参考ＱＴ项目
